@@ -2,25 +2,27 @@
 <html>
 <head>
     <title></title>
-
 </head>
 <body>
+  <form name="submit_ipsum" method="POST" class="blah">
+      <div>
+          How many paragraphs?
+          <input id="num_paragraphs" name="num_paragraphs" type="text" size="5" value="1"  />
+          <input type="button" value="Breathe"/>
+          <div id="for-paragraphs"></div>
 
+      </div>
 
-
-
-
-<form name="submit_ipsum" method="POST" class="blah">
-    <div>
-        How many paragraphs?
-        <input id="num_paragraphs" name="num_paragraphs" type="text" size="5" value="1"  />
-        <input type="button" value="Breathe" onclick="generateIpsum(this.form, document.getElementById('for-paragraphs'))"/>
-        <div id="for-paragraphs"></div>
-
-    </div>
-
-</form>
-
+  </form>
+<script src="http://code.jquery.com/jquery-2.1.0.js"></script>
+<script src="ipsum.js"></script>
+<script src="format_ipsum.js"></script>
+<script type="text/javascript">
+  $(function() {
+    var formatIpsum = new FormatIpsum({el: document.body});
+    formatIpsum.render();
+  });
+</script>
 
 </body>
 </html>

@@ -1,0 +1,10 @@
+#jasmine_content {
+  position: absolute;
+  -webkit-transform: rotateY(-90deg);
+  -moz-transform: rotateY(-90deg);
+  -ms-transform: rotateY(-90deg);
+  transform: rotateY(-90deg);
+  width:1000px;
+  height: 1000px;
+  opacity: 0.5;
+}
