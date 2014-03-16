@@ -1,7 +1,7 @@
 describe("Format Ipsum takes an array of paragraphs and formats them for html", function() {
   var subject;
   beforeEach(function() {
-    jasmine.content().append('<form name="submit_ipsum" method="POST" class="blah"> <div> How many paragraphs? <input id="num_paragraphs" name="num_paragraphs" type="text" size="5" value="1"  /> <input type="button" value="Breathe"/> <div id="for-paragraphs"></div> </div> </form>');
+    jasmine.content().append('<form name="submit_ipsum" method="POST" class="blah"> <div> How many paragraphs? <input id="num_paragraphs" name="num_paragraphs" type="text" size="5" value="1"  /> <input type="submit" value="Breathe"/> <div id="for-paragraphs"></div> </div> </form>');
 
     subject = new FormatIpsum({el: jasmine.content()[0]});
     subject.render();
