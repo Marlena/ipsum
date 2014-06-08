@@ -21,7 +21,7 @@ FormatIpsum.prototype.render = function() {
   if (this.numParagraphs > 0 && this.numParagraphs <= 100 && (this.numParagraphs === parseInt(this.numParagraphs,10))){
     console.log(this.numParagraphs);
     $.each(ipsum, function() {
-      html += '<p>' + this + '</p>'
+      html += '<p>' + this + '</p>';
     });
     $('#for-paragraphs', this.el).html(html);
   }
@@ -35,8 +35,11 @@ FormatIpsum.prototype.render = function() {
 };
 
 //putting this at the bottom as it will be large and full of strings
-var words = ["Open your heart's eyes.",
+var words = ["Feelings come and go like clouds in a windy sky.",
+  "Open your heart's eyes.",
   "Take a deep breath.",
+  "It will be ok.",
+  "Take a look around and notice what is really happening, right now, in this moment.",
   "Give yourself a break.",
   "May you be healthy.",
   "May you be safe.",

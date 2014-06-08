@@ -1,0 +1,46 @@
+
+.breathe-button{
+  text-align:center;
+}
+
+body{
+  background: #f1f1f1;
+}
+
+.ipsum-text-font{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #363636
+}
+
+
+h1{
+  text-align:center;
+  margin-bottom:0;
+}
+
+.mindful{
+  font-size: 80px;
+}
+
+.ipsum{
+  font-family: 'Tinos', garamond;
+  font-size: 50px;
+  color: #888888;
+}
+
+.dot{
+  color: #64EB52;
+  size: 120px;
+}
+
+.ipsum-text-margin{
+  margin: 50px 30px 60px 20px;
+}
+
+.para-form{
+  align: center;
+}
+
+#breathe{
+  font-family: 'Lucida Grande','Lucida Sans Unicode',Arial,Helvetica,sans-serif;
+}

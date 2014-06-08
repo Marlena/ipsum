@@ -1,20 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+  <link href="style.css" rel="stylesheet" type="text/css" media="all">
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300' rel='stylesheet' type='text/css'>
+  <link href='http://www.google.com/fonts/#QuickUsePlace:quickUse/Family:Tinos' rel='stylesheet' type='text/css'>
+
+  <title>Mindful Ipsum</title>
+
 </head>
 <body>
+
+<div>
+  <h1>
+    <span class="mindful ipsum-text-font">Mindful</span> <span class="ipsum">Ipsum</span><span class="dot">.</span></h1>
+
+</div>
+
+  <div class="ipsum-text-font">
   <form name="submit_ipsum" method="POST" class="blah">
       <div>
+        <div class="breathe-button">
           How many paragraphs?
-          <input id="num_paragraphs" name="num_paragraphs" type="text" size="5" value="1"  />
+          <input id="num_paragraphs" name="num_paragraphs" type="text" size="5" value="4"  />
           <input type="submit" value="Breathe"/><span id="errorText"></span>
-
-          <div id="for-paragraphs"></div>
-
+        </div>
+          <div id="for-paragraphs" class="ipsum-text-margin"></div>
       </div>
-
   </form>
+  </div>
+
 <script src="http://code.jquery.com/jquery-2.1.0.js"></script>
 <script src="ipsum.js"></script>
 <script src="format_ipsum.js"></script>
