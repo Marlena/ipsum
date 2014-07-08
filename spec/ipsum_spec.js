@@ -30,7 +30,7 @@ describe("Mindful Ipsum", function() {
     var wordCollection = ["apple", "banana", "kiwi", "grape", "cherry", "orange"];
 
     var counter = 5;
-    spyOn(window, "getRandom").and.callFake(function() {
+    spyOn(Ipsum.prototype, "getRandom").and.callFake(function() {
       return counter--;
     });
 
@@ -44,7 +44,7 @@ describe("Mindful Ipsum", function() {
     var wordCollection = ["kangaroo", "wallaby", "platypus", "giraffe", "snake", "elephant", "lion", "husky"];
 
     var counter = 8;
-    spyOn(window, "getRandom").and.callFake(function() {
+    spyOn(Ipsum.prototype, "getRandom").and.callFake(function() {
       counter = counter < 0 ? 8 : counter;
       return counter--;
     });

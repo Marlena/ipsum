@@ -5,10 +5,13 @@
 
 body{
   background: #f1f1f1;
+  margin: 0 auto;
+  width: 960px;
 }
 
 .ipsum-text-font{
   font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
   color: #363636
 }
 
@@ -30,11 +33,11 @@ h1{
 
 .dot{
   color: #64EB52;
-  size: 120px;
+  font-size: 36px;
 }
 
-.ipsum-text-margin{
-  margin: 50px 30px 60px 20px;
+.ipsum-content {
+  margin: 50px 60px 20px;
 }
 
 .para-form{
@@ -43,4 +46,8 @@ h1{
 
 #breathe{
   font-family: 'Lucida Grande','Lucida Sans Unicode',Arial,Helvetica,sans-serif;
+}
+
+p{
+  margin-bottom: 10px;
 }
