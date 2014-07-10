@@ -9,4 +9,7 @@
     "consolidate": "0.10.0",
     "path": "0.4.9"
   }
+  "engines": {
+    "node": "0.10.22"
+  }
 }
