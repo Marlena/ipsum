@@ -15,9 +15,7 @@ app.get('/', function(req, res){
     res.render('ipsum.html');
     });
 
-var server = app.listen(3000, function() {
-    console.log('listening on port %d', server.address().port);
-    });
+var server = app.listen(process.env.PORT || 5000)
 
 app.use(function(req, res, next){
       res.send(404, 'Sorry cant find that!');
