@@ -51,3 +51,11 @@ h1{
 p{
   margin-bottom: 10px;
 }
+
+.footer p{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    color: #888888;
+    padding: 95px 0 0;
+}
