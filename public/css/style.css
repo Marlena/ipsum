@@ -3,11 +3,17 @@
   text-align:center;
 }
 
+html, body{
+  height: 100%;
+}
+
 body{
   background: #f1f1f1;
   margin: 0 auto;
   width: 960px;
 }
+
+
 
 .ipsum-text-font{
   font-family: 'Source Sans Pro', sans-serif;
@@ -52,7 +58,22 @@ p{
   margin-bottom: 10px;
 }
 
-.footer p{
+.page-wrap{
+    min-height: 100%;
+    margin-bottom: -142px;
+}
+
+.page-wrap:after{
+    content: "";
+    display: block;
+
+}
+
+.site-footer, .page-wrap:after{
+    height: 142px;
+}
+
+.site-footer p{
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
